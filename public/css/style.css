@@ -1,0 +1,79 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000; /* Fundo preto */
+    height: 120px; /* Altura da navbar */
+    padding: 0 20px; /* Bordas laterais */
+    display: flex;
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Espaçamento entre os itens */
+    box-sizing: border-box;
+}
+
+.logo img {
+    max-height: 110px; /* Altura da logo */
+    margin: 5px 0; /* Margem superior e inferior */
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 120%; /* Garante que o menu tenha a altura da navbar */
+    align-items: center; /* Centraliza verticalmente os itens do menu */
+}
+
+.menu li {
+    margin: 0 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Empilha o ícone e o texto */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu i {
+    font-size: 24px; /* Tamanho dos ícones */
+    margin-bottom: 5px;
+}
+
+.social {
+    display: flex;
+    align-items: center; /* Centraliza os ícones sociais verticalmente */
+}
+
+.social a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Adicionando responsividade */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Alinha os itens verticalmente em telas menores */
+        height: auto;
+    }
+
+    .menu {
+        flex-direction: column; /* Empilha os itens do menu */
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+}
