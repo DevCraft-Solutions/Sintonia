@@ -1,0 +1,62 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #000; /* Fundo preto */
+    width: 100%; /* Largura máxima */
+    height: 45px; /* Altura fixa */
+    padding: 0 32px; /* Padding de 32px nas laterais */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: space-between; /* Justifica os itens (logo, menu, redes sociais) */
+    box-sizing: border-box; /* Inclui o padding na largura total */
+}
+
+.logo img {
+    height: 50px; /* Altura mínima */
+    object-fit: contain; /* Mantém a proporção da imagem */
+}
+
+.menu {
+    list-style: none;
+    display: flex; /* Exibe os itens do menu horizontalmente */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Justifica os itens ao centro */
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 20px; /* Espaçamento entre os itens do menu */
+}
+
+.menu li {
+    text-align: center; /* Centraliza o texto dentro de cada li */
+    display: flex;
+    flex-direction: column; /* Ícone acima e texto abaixo */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* Cor branca para os textos */
+    font-size: 10px; /* Tamanho do texto */
+}
+
+.menu i {
+    font-size: 10px; /* Tamanho dos ícones */
+    margin-bottom: 0px; /* Espaço entre o ícone e o texto */
+}
+
+.social {
+    display: flex; /* Exibe os ícones de redes sociais em linha */
+    justify-content: flex-end; /* Justifica os ícones à direita */
+    align-items: center; /* Alinha os ícones verticalmente */
+    gap: 10px; /* Espaçamento entre os ícones */
+}
+
+.social a {
+    color: #fff; /* Cor branca para os ícones */
+    font-size: 12px; /* Tamanho dos ícones */
+    padding: 0px; /* Padding de 10px em cada ícone */
+}
