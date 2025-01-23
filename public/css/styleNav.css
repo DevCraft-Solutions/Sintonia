@@ -3,12 +3,11 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url('../img/background.jpeg');
-
 }
 
 /* NAV BAR */
 .navbar {
-    background-color: #000;
+    background-color: #0046ad;
     /* Fundo preto */
     width: 100%;
     /* Largura máxima */
@@ -89,4 +88,60 @@ body {
     /* Tamanho dos ícones */
     padding: 0px;
     /* Padding de 10px em cada ícone */
+}
+
+/* Footer */
+.footer {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 40px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-section-p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    align-items: center;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.footer-section ul li strong {
+    font-size: 1rem;
+    color: #000;
+}
+
+.footer-bottom {
+    background-color: #667dff;
+    /* Cor laranja para o rodapé inferior */
+    text-align: center;
+    padding: 5px 0;
+    font-size: 0.9rem;
+    color: #000;
 }
