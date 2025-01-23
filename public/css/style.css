@@ -155,3 +155,18 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* Sombra para destacar */
 }
+
+/* Lais Almeida*/
+
+.lais h1 {
+    font-family: 'Irish Grover', cursive;
+    /* Fonte do título */
+    font-size: 5rem;
+    /* Tamanho do título */
+    color: #e97101;
+    /* Cor azul */
+    margin-bottom: 20px;
+    /* Espaçamento entre o título e o texto */
+    line-height: 1.2;
+    /* Ajusta o espaçamento entre linhas */
+}
