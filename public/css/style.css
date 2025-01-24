@@ -117,3 +117,21 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve */
 }
 
+/* MAPA */
+.map {
+    display: flex; /* Define o contêiner como flexível */
+    justify-content: center; /* Centraliza o mapa horizontalmente */
+    align-items: center; /* Centraliza o mapa verticalmente */
+    width: 100%; /* O contêiner ocupa 100% da largura */
+    height: 70vh; /* O contêiner ocupa 100% da altura da viewport */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo de largura/altura */
+    padding: 10px; /* Adiciona espaçamento interno */
+}
+
+.map iframe {
+    border-radius: 10px; /* Adiciona bordas arredondadas ao mapa */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra para destacar o mapa */
+    max-width: 100%; /* Evita que o iframe ultrapasse os limites */
+    height: 450px; /* Altura fixa para o mapa */
+}
+
