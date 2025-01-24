@@ -145,3 +145,38 @@ body {
     font-size: 0.9rem;
     color: #000;
 }
+
+
+
+
+
+.menu a i {
+    font-size: 1.5rem; /* Tamanho dos ícones */
+    margin-bottom: 5px; /* Espaço entre o ícone e o texto */
+    transition: transform 0.3s ease, color 0.3s ease; /* Suaviza o efeito no ícone */
+}
+
+.menu a span {
+    margin-top: 5px;
+    transition: color 0.3s ease; /* Transição na cor do texto */
+}
+
+/* Efeito hover nos itens do menu */
+.menu a:hover {
+    color: #ff6600; /* Cor laranja ao passar o mouse */
+    transform: scale(1.1); /* Aumenta levemente o tamanho do link */
+}
+
+.menu a:hover i {
+    color: #ff6600; /* Ícone também muda para laranja */
+    transform: scale(1.2); /* Ícone aumenta levemente */
+}
+
+.menu a:hover span {
+    color: #ff6600; /* Texto abaixo do ícone também muda para laranja */
+}
+
+.social a:hover {
+    color: #ff6600; /* Muda a cor para laranja ao passar o mouse */
+    transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
