@@ -7,6 +7,10 @@ body {
 
 /* NAV BAR */
 .navbar {
+    position: fixed; /* Navbar fixa no topo */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que fique acima do banner */
     background-color: #000000;
     /* Fundo preto */
     width: 100%;
