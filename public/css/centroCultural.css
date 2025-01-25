@@ -1,26 +1,46 @@
 .banner {
-    position: relative; /* Define o contêiner como relativo */
-    width: 100vw; /* Garante que o banner ocupe 100% da largura da tela */
-    height: 400px; /* Define a altura do banner */
-    background-image: url('../public/img/banner.jpeg'); /* Imagem de fundo */
-    background-size: cover; /* A imagem cobre todo o espaço do banner */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    display: flex; /* Flexbox para alinhar os textos */
-    align-items: flex-end; /* Alinha os textos no final do banner */
+    position: relative;
+    /* Define o contêiner como relativo */
+    width: 100vw;
+    /* Garante que o banner ocupe 100% da largura da tela */
+    height: 500px;
+    /* Define a altura do banner */
+    background-image: url('../public/img/banner.jpeg');
+    /* Imagem de fundo */
+    background-size: cover;
+    /* A imagem cobre todo o espaço do banner */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    display: flex;
+    /* Flexbox para alinhar os textos */
+    align-items: flex-end;
+    /* Alinha os textos no final do banner */
 }
 
 .banner::before {
-    content: ''; /* Cria a faixa sobre a imagem */
+    content: '';
+    /* Cria a faixa sobre a imagem */
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%; /* Faixa cobre toda a largura do banner */
-    height: 100px; /* Altura da faixa */
-    background-color: rgba(255, 165, 0, 0.8); /* Cor laranja translúcida */
-    z-index: 1; /* Coloca a faixa abaixo dos textos */
+    width: 100%;
+    /* Faixa cobre toda a largura do banner */
+    height: 100px;
+    /* Altura da faixa */
+    background-color: rgba(255, 165, 0, 0.8);
+    /* Cor laranja translúcida */
+    z-index: 1;
+    /* Coloca a faixa abaixo dos textos */
 }
 
-.banner img{
-    width: 100%; /* Faixa cobre toda a largura do banner */
+.banner img {
+    width: 100%;
+    /* Faixa cobre toda a largura do banner */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    object-fit: cover;
+    /* Corta a imagem proporcionalmente, cobrindo o contêiner */
+    object-position: center; /* Alinha a imagem ao topo */
 }
