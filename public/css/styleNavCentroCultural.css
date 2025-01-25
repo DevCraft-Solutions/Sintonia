@@ -70,13 +70,33 @@ body {
     /* Espaço entre o ícone e o texto */
 }
 
+/* Estilo base para o botão "Experimental" */
 .experimental {
     text-decoration: none;
     color: #fff;
     padding: 10px 15px;
-    background-color: #ff6600;
+    background-color: #ff6600; /* Cor de fundo laranja */
     border-radius: 7px;
     margin-left: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza o efeito de hover */
+}
+
+/* Efeito hover no botão "Experimental" */
+.experimental:hover {
+    transform: scale(1.2); /* Aumenta levemente o tamanho do botão */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra ao botão */
+    background-color: #ff4500; /* Muda para um tom mais escuro de laranja */
+}
+
+/* Efeito no texto dentro do botão "Experimental" */
+.experimental a {
+    text-decoration: none;
+    color: #fff; /* Cor branca para o texto */
+    transition: color 0.3s ease; /* Suaviza a transição da cor */
+}
+
+.experimental a:hover {
+    color: #f0e68c; /* Cor amarelada ao passar o mouse sobre o texto */
 }
 
 .social {
@@ -182,8 +202,3 @@ body {
     transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
 }
 
-.menu .experimental span:hover {
-    color: #fff;
-    transition: color 0.3s ease; /* Transição na cor do texto */
-    transform: scale(1.1); /* Aumenta levemente o tamanho do link */
-}
